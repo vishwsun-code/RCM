@@ -39,8 +39,8 @@ app = FastAPI(title="Right Choice Medicare System", version="1.0.0")
 # Create API router with /api prefix
 api_router = APIRouter(prefix="/api")
 
-# Password context
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# Password context - using auth module functions instead
+# pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 security = HTTPBearer()
 
 # Auth dependency
