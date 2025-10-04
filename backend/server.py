@@ -34,7 +34,7 @@ except:
     razorpay_client = None
 
 # Create the main app
-app = FastAPI(title="Medical ERP System", version="1.0.0")
+app = FastAPI(title="Right Choice Medicare System", version="1.0.0")
 
 # Create API router with /api prefix
 api_router = APIRouter(prefix="/api")
