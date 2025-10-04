@@ -525,7 +525,7 @@ async def get_dashboard_summary(company_id: str, current_user: User = Depends(ge
 # Health check endpoint
 @api_router.get("/")
 async def root():
-    return {"message": "Medical ERP API is running", "version": "1.0.0"}
+    return {"message": "Right Choice Medicare System API is running", "version": "1.0.0"}
 
 # Include the router in the main app
 app.include_router(api_router)
