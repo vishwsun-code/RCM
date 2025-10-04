@@ -254,7 +254,7 @@ const Login = () => {
         </Card>
         
         <div className="text-center mt-6 text-sm text-gray-500">
-          <p>© 2025 Medical ERP System. Built for pharmaceutical excellence.</p>
+          <p>© 2025 Right Choice E-commerce Pvt. Ltd. Built for pharmaceutical excellence.</p>
         </div>
       </div>
     </div>
