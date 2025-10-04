@@ -5,7 +5,7 @@ from jose import JWTError, jwt
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 import os
-from .models import User, UserRole
+from models import User, UserRole
 from motor.motor_asyncio import AsyncIOMotorDatabase
 
 SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "your-secret-key-change-in-production")
