@@ -85,8 +85,12 @@ const Login = () => {
       
       <div className="relative z-10 w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-600 rounded-2xl mb-4">
-            <Building2 className="w-8 h-8 text-white" />
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-2xl mb-4 p-2 shadow-lg">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_medi-inventory-1/artifacts/z5wly1tx_RC%20Logo.png" 
+              alt="Right Choice Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Right Choice Medicare System</h1>
           <p className="text-gray-600">Comprehensive pharmaceutical management system</p>
