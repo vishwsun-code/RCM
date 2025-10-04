@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-10-04T07:30:10.081209+00:00",
+  "total_tests": 1,
+  "passed_tests": 0,
+  "failed_tests": 1,
+  "success_rate": 0.0,
+  "test_details": [
+    {
+      "test_name": "API Health Check",
+      "success": false,
+      "details": "",
+      "error": "API not responding"
+    }
+  ]
+}
