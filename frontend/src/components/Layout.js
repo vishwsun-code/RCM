@@ -49,8 +49,12 @@ const Layout = ({ children }) => {
       {/* Logo */}
       <div className="flex items-center justify-center h-16 px-4 border-b border-gray-200">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
-            <Building2 className="w-5 h-5 text-white" />
+          <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center p-1 shadow-sm">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_medi-inventory-1/artifacts/z5wly1tx_RC%20Logo.png" 
+              alt="Right Choice Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <span className="text-xl font-bold text-gray-900">Right Choice Medicare</span>
         </div>
