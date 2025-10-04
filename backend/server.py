@@ -92,12 +92,9 @@ async def register(user_data: UserCreate):
     
     # Create user
     hashed_password = get_password_hash(user_data.password)
-    print(f"DEBUG: Original password: {user_data.password}")
-    print(f"DEBUG: Hashed password: {hashed_password}")
     user_dict = user_data.dict()
     del user_dict["password"]
     user_dict["password_hash"] = hashed_password
-    print(f"DEBUG: User dict keys: {user_dict.keys()}")
     
     user = User(**user_dict)
     await db.users.insert_one(user.dict(by_alias=True))
