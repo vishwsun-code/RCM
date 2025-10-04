@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-10-04T07:56:24.661338+00:00",
-  "total_tests": 3,
-  "passed_tests": 2,
-  "failed_tests": 1,
-  "success_rate": 66.66666666666666,
+  "timestamp": "2025-10-04T07:59:24.872704+00:00",
+  "total_tests": 20,
+  "passed_tests": 20,
+  "failed_tests": 0,
+  "success_rate": 100.0,
   "test_details": [
     {
       "test_name": "API Health Check",
@@ -19,9 +19,111 @@
     },
     {
       "test_name": "User Login",
-      "success": false,
-      "details": "",
-      "error": "No response"
+      "success": true,
+      "details": "Token received, User: Test User",
+      "error": ""
+    },
+    {
+      "test_name": "Dashboard Summary",
+      "success": true,
+      "details": "Customers: 0, Suppliers: 0, Items: 0",
+      "error": ""
+    },
+    {
+      "test_name": "Create Category",
+      "success": true,
+      "details": "Category ID: 07429d0b-6637-4811-a324-44111324c5c6",
+      "error": ""
+    },
+    {
+      "test_name": "Get Categories",
+      "success": true,
+      "details": "Found 1 categories",
+      "error": ""
+    },
+    {
+      "test_name": "Create Item",
+      "success": true,
+      "details": "Item ID: 03bcddcc-af6b-4b2f-9101-f9a12d91fb95",
+      "error": ""
+    },
+    {
+      "test_name": "Get Items",
+      "success": true,
+      "details": "Found 1 items",
+      "error": ""
+    },
+    {
+      "test_name": "Create Customer",
+      "success": true,
+      "details": "Customer ID: af9d6b1d-58b6-47b1-8f74-a57a582db8d7",
+      "error": ""
+    },
+    {
+      "test_name": "Get Customers",
+      "success": true,
+      "details": "Found 1 customers",
+      "error": ""
+    },
+    {
+      "test_name": "Create Supplier",
+      "success": true,
+      "details": "Supplier ID: bbdf743e-9248-46a8-ad30-6c1c3a462ae0",
+      "error": ""
+    },
+    {
+      "test_name": "Get Suppliers",
+      "success": true,
+      "details": "Found 1 suppliers",
+      "error": ""
+    },
+    {
+      "test_name": "Get Stock",
+      "success": true,
+      "details": "Found 0 stock records",
+      "error": ""
+    },
+    {
+      "test_name": "Get Batches",
+      "success": true,
+      "details": "Found 0 batch records",
+      "error": ""
+    },
+    {
+      "test_name": "Get Stock Movements",
+      "success": true,
+      "details": "Found 0 movement records",
+      "error": ""
+    },
+    {
+      "test_name": "Get Purchase Orders",
+      "success": true,
+      "details": "Found 0 purchase orders",
+      "error": ""
+    },
+    {
+      "test_name": "Get Sales Orders",
+      "success": true,
+      "details": "Found 0 sales orders",
+      "error": ""
+    },
+    {
+      "test_name": "Get Invoices",
+      "success": true,
+      "details": "Found 0 invoices",
+      "error": ""
+    },
+    {
+      "test_name": "Get GRNs",
+      "success": true,
+      "details": "Found 0 GRN records",
+      "error": ""
+    },
+    {
+      "test_name": "Get Payments",
+      "success": true,
+      "details": "Found 0 payment records",
+      "error": ""
     }
   ]
 }
