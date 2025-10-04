@@ -1,15 +1,21 @@
 {
-  "timestamp": "2025-10-04T07:30:10.081209+00:00",
-  "total_tests": 1,
-  "passed_tests": 0,
+  "timestamp": "2025-10-04T07:31:11.323483+00:00",
+  "total_tests": 2,
+  "passed_tests": 1,
   "failed_tests": 1,
-  "success_rate": 0.0,
+  "success_rate": 50.0,
   "test_details": [
     {
       "test_name": "API Health Check",
+      "success": true,
+      "details": "API Version: 1.0.0",
+      "error": ""
+    },
+    {
+      "test_name": "User Registration",
       "success": false,
       "details": "",
-      "error": "API not responding"
+      "error": "No response"
     }
   ]
 }
