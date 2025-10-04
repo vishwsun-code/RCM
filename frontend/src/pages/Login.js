@@ -197,12 +197,11 @@ const Login = () => {
                     <Select 
                       value={registerData.role} 
                       onValueChange={(value) => setRegisterData({...registerData, role: value})}
-                      required
                     >
                       <SelectTrigger data-testid="register-role">
                         <SelectValue placeholder="Select your role" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-50">
                         <SelectItem value="super_admin">Super Admin</SelectItem>
                         <SelectItem value="admin">Admin</SelectItem>
                         <SelectItem value="manager">Manager</SelectItem>
