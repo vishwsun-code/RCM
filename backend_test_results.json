@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-10-04T07:54:19.094796+00:00",
-  "total_tests": 2,
-  "passed_tests": 1,
+  "timestamp": "2025-10-04T07:56:24.661338+00:00",
+  "total_tests": 3,
+  "passed_tests": 2,
   "failed_tests": 1,
-  "success_rate": 50.0,
+  "success_rate": 66.66666666666666,
   "test_details": [
     {
       "test_name": "API Health Check",
@@ -13,6 +13,12 @@
     },
     {
       "test_name": "User Registration",
+      "success": true,
+      "details": "User registered successfully",
+      "error": ""
+    },
+    {
+      "test_name": "User Login",
       "success": false,
       "details": "",
       "error": "No response"
