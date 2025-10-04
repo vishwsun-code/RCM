@@ -12,12 +12,8 @@ SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "your-secret-key-change-in-product
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
-try:
-    pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto", bcrypt__rounds=12)
-except Exception as e:
-    print(f"Bcrypt initialization error: {e}")
-    # Fallback to a simpler configuration
-    pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
+# Use pbkdf2_sha256 instead of bcrypt to avoid 72-byte limit issues
+pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 security = HTTPBearer()
 
 def verify_password(plain_password, hashed_password):
